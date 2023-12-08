@@ -1,0 +1,43 @@
+.main-box{
+  background-color: #6080c0;
+  color: white;
+}
+.main-heading {
+  text-align: center;
+  font-size: 45px;
+  text-decoration: underline;
+  letter-spacing: 5px;
+}
+.aboutus-text-main {
+  display: flex;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.aboutus-img-fasad {
+  width: 600px;
+  height: 500px;
+}
+.aboutus-textt-main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.image-carousel-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutus-img-fasad {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: 300px;
+  }
+  .aboutus-text-main {
+    display: block;
+  }
+  .aboutus-textt-main{
+    text-align: center;
+  }
+}
